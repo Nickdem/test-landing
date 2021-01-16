@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+  .header {
+    &__bottom {
+      background-position: bottom center;
+      background-size: 50%;
+      padding: 25px 0 350px;
+    }
+
+    &__content {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  .advantages {
+    &__title {
+      text-align: center;
+    }
+
+    &__items {
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    &__bottom {
+      padding-bottom: 250px;
+    }
+  }
+
+  .advantages {
+    padding: 50px 0;
+  } 
+
+  .jumbotron {
+    padding: 30px;
+    margin-bottom: 100px;
+
+    &__title {  
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    &__navigation-list {
+      flex-direction: column;
+      width: 100px;
+      text-align: right;
+      height: 65px;
+    }
+
+    &__bottom {
+      background-size: 75%;
+    }
+
+    &__content-title {
+      font-size: 34px;
+    }
+  }
+
+  .advantages {
+    &__item {
+      width: 80%;
+      flex-direction: column;
+      text-align: center;
+      padding: 0;
+    }
+
+    &__item-box {
+      margin: 0 auto;
+    }
+  }
+
+  .login {
+    &__popup {
+      width: 300px;     
+      min-height: 430px;
+    }
+
+    &__form {
+      padding: 25px 15px 25px;
+    }
+  }
+}

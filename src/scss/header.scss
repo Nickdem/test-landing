@@ -1,0 +1,76 @@
+.header {
+  background-color: #2D1686;
+  background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+  }
+
+  &__logo-link:hover,
+  &__logo-link:focus {
+    opacity: .8;
+  }
+
+  &__navigation-list {
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+  }
+
+  &__navigation-link {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  &__navigation-link:hover,
+  &__navigation-link:focus {
+    opacity: .8;
+  }
+
+  &__navigation-button {
+    font-family: 'Whitney';
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    background: none;
+    border: none;
+    padding-left: 36px;
+    position: relative;
+
+    &::before {
+      content: url(../images/login.svg);
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  &__bottom {
+    padding: 135px 0 180px;
+    background-image: url('../images/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  &__content {
+    max-width: 515px;
+  }
+
+  &__content-title {
+    font-size: 50px;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+
+  &__content-text {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 60px;
+  }
+
+  &__content-button {
+    padding: 16px 60px;
+  }
+}
